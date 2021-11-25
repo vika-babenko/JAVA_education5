@@ -19,7 +19,7 @@ public class Lab1 {
                         }
                         else{
                             System.out.println("Error!");
-                            break;
+                            System.exit(0);
                         }
 
                     }
@@ -27,8 +27,7 @@ public class Lab1 {
                 else {
                     // повідомлення проділення на 0
                     System.out.println("Ділення на нуль неможливе!");
-                    S=0;
-                    break;
+                    System.exit(0);
                 }
 // виведення результату
             System.out.println("S = "+ S);
